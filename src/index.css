@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} 
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #EEEEFF;
+}
+
+@media screen and (max-width: 768px) {
+  /* Navbar Page and Dashboard Page */
+  .nav-bar .nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background: #EEEEFF;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 2;
+    margin: 0;
+  }
+}
+
+
+
