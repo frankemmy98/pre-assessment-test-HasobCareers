@@ -58,8 +58,8 @@ function Signup() {
             <input
               type="text"
               name="firstName"
-              className="sm:w-[16rem] xl:w-[27rem] md:w-[20rem] 
-              xl:h-[3rem] w-[13rem] lg:w-[23rem]
+              className="sm:w-[19rem] xl:w-[27rem] md:w-[23rem] 
+              xl:h-[3rem] w-[17rem] lg:w-[25rem]
               p-3 mt-1 xl:mb-6 rounded focus:outline-0 mb-4"
               placeholder="Enter your First Name"
             />
@@ -69,8 +69,8 @@ function Signup() {
             <input
               type="text"
               name="firstName"
-              className="sm:w-[16rem] xl:w-[27rem] xl:h-[3rem] p-3 mt-1 xl:mb-8 rounded 
-              w-[13rem] mb-4 md:w-[20rem] focus:outline-0 lg:w-[23rem]"
+              className="sm:w-[19rem] xl:w-[27rem] xl:h-[3rem] p-3 mt-1 xl:mb-8 rounded 
+              w-[17rem] mb-4 md:w-[23rem] focus:outline-0 lg:w-[25rem]"
               placeholder="Enter your First Name"
             />
           </div>
@@ -79,8 +79,8 @@ function Signup() {
             <input
               type="text"
               name="firstName"
-              className="sm:w-[16rem] xl:w-[27rem] xl:h-[3rem] p-3 mt-1 xl:mb-8 rounded 
-              w-[13rem] mb-4 md:w-[20rem] focus:outline-0 lg:w-[23rem]"
+              className="sm:w-[19rem] xl:w-[27rem] xl:h-[3rem] p-3 mt-1 xl:mb-8 rounded 
+              w-[17rem] mb-4 md:w-[23rem] focus:outline-0 lg:w-[25rem]"
               placeholder="Enter your First Name"
             />
           </div>
@@ -89,8 +89,8 @@ function Signup() {
             <input
               type="text"
               name="firstName"
-              className="sm:w-[16rem] xl:w-[27rem] xl:h-[3rem] p-3 mt-1 xl:mb-6 rounded 
-              w-[13rem] mb-4 md:w-[20rem] focus:outline-0 lg:w-[23rem]"
+              className="sm:w-[19rem] xl:w-[27rem] xl:h-[3rem] p-3 mt-1 xl:mb-6 rounded 
+              w-[17rem] mb-4 md:w-[23rem] focus:outline-0 lg:w-[25rem]"
               placeholder="Enter your First Name"
             />
           </div>
@@ -99,15 +99,16 @@ function Signup() {
             <input
               type="text"
               name="firstName"
-              className="sm:w-[16rem] xl:w-[27rem] xl:h-[3rem] p-3 mt-1 rounded 
-              w-[13rem] md:w-[20rem] focus:outline-0 lg:w-[23rem]"
+              className="sm:w-[19rem] xl:w-[27rem] xl:h-[3rem] p-3 mt-1 rounded 
+              w-[17rem] md:w-[23rem] focus:outline-0 lg:w-[25rem]"
               placeholder="Enter your First Name"
             />
           </div>
-          <div className="mt-5 xl:mt-8 mb-6 sm:ml-6 xl:ml-0">
+          <div className="mt-5 xl:mt-8 mb-6 sm:px-[3.5rem] md:pl-[1rem] xl:ml-0
+          lg:pr-3">
             <label
-              className="inline-flex items-center mx-[5rem]
-            md:px-[6rem] md:mx-[5.5rem]"
+              className="inline-flex items-center mx-[2rem] sm:mx-[5rem]
+            md:px-[3rem] md:mx-[8rem]"
             >
               <input
                 type="checkbox"
@@ -126,8 +127,8 @@ function Signup() {
             </label>
           </div>
           <button
-            className="flex items-center py-4 px-8 sm:px-12 md:px-[8rem]
-             xl:py-4 xl:px-[11.6rem] lg:px-[9.6rem] bg-black font-semibold
+            className="flex items-center py-4 px-10 sm:px-12 md:px-[9.5rem]
+             xl:py-4 xl:px-[11.6rem] lg:px-[10.5rem] bg-black font-semibold
         rounded text-white justify-center hover:bg-charcoalBlack mb-3
         "
           >
